@@ -1,0 +1,90 @@
+body{
+  color: solid white;
+  background-image: url("coffee.jpg");
+  background-repeat: no-repeat;
+  background-size: 100pc 100pc;
+}
+
+#signup-div{
+  border: 1px solid black;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  padding: 40px 40px 40px 40px;
+  margin-top: 10%;
+  margin-left: 20%
+}
+#link{
+  color: rgb(15, 10, 10);
+}
+
+
+ul#horizontal-list {
+  list-style: none;
+  margin-left: 2%;
+  padding: auto;
+}
+
+ul#horizontal-list li{
+  display: inline;
+  color: white;
+  font-size: 24px;
+  margin: 2%;
+}
+
+ul li a#products{
+  text-decoration: none;
+  margin-left: 5%;
+}
+
+.product-list {
+  
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product-list ul li {
+  display: inline-block;
+  width: 150px;
+  border: 1px solid white;
+  padding: 5px;
+}
+
+.product-list ul{
+  margin: 0;
+  background-color: bisque;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+h2{
+  text-align: left;
+  margin-left: 5%;
+  
+}
+
+h1{
+  text-align: left;
+  margin-left: 20%;
+}
+
+#customer-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#customer-table tr:hover {background-color: #ddd;}
+
+#customer-table th {
+  
+  text-align: left;
+  
+  color: white;
+  
+}
+
+#customer-table{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 45%;
+  margin-left: 10%;
+  
+}
+
